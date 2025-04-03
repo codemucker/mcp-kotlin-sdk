@@ -194,6 +194,8 @@ kotlin {
             jvmTarget = JvmTarget.JVM_1_8
         }
     }
+    js()
+    linuxX64()
 
     explicitApi = ExplicitApiMode.Strict
 
